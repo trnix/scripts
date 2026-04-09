@@ -35,7 +35,7 @@ clean_screen() {
 echo_env_vars() {
   export ARGO_AUTH="${ARGO_AUTH:-'eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiYTI0ZGFkYjEtNjc1Yi00NjdlLThiM2EtNDc0M2I5N2RiMTA5IiwicyI6Ik9XWmlNV1ZrWVRVdFlXUmhNQzAwWWpnNUxUZzNZbVF0WmpKaE16SXdOek13TWpKaiJ9'}"
   export CM_PASS="${CM_PASS:-fx771532}"
-  export CM_PORT="${CM_PORT:-3000}"
+  export CM_PORT="${CM_PORT:-8080}"
 
   [ -n "$ARGO_AUTH" ] && echo "  ARGO_AUTH=$ARGO_AUTH"
   [ -n "$CM_PORT" ] && echo "  CM_PORT=$CM_PORT"
