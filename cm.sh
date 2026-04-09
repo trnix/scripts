@@ -33,9 +33,9 @@ clean_screen() {
 }
 
 echo_env_vars() {
-  export ARGO_AUTH="${ARGO_AUTH:-''}"
-  export CM_PASS="${CM_PASS:-123}"
-  export CM_PORT="${CM_PORT:-3000}"
+  export ARGO_AUTH="${ARGO_AUTH:-'eyJhIjoiOTgzOTNiMjFjN2I1MmY2YWQ5MDcwNTQ4YjFmNzFlZmMiLCJ0IjoiYjMyYTFlZGMtZThkMS00OGYwLTg3YjgtMzFkY2EwZWE5NjQ4IiwicyI6IlptWTNNVGMzT0RFdE1UUm1OaTAwTm1SaUxUa3haRGN0TURFNU5HSmxPR0ZoTlRSbCJ9'}"
+  export CM_PASS="${CM_PASS:-EZar@minecraft~777&}"
+  export CM_PORT="${CM_PORT:-8080}"
 
   [ -n "$ARGO_AUTH" ] && echo "  ARGO_AUTH=$ARGO_AUTH"
   [ -n "$CM_PORT" ] && echo "  CM_PORT=$CM_PORT"
